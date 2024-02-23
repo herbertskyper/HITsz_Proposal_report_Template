@@ -74,12 +74,16 @@
   par(strong(text("哈尔滨工业大学（深圳）\n", font: 字体.黑体, size: 字号.一号)))
   par(strong(text("大一年度项目立项报告", font: 字体.黑体, size: 字号.一号)))
 
+  // for i in range(1, 4) {
+  //   par(v(字号.小二 * 1))
+  // }
   v(字号.小二 * 4)
+  v(字号.小二 * 1)
 
   // set text(font: 字体.宋体)
   gridx(
     columns: (1fr, 1fr),
-    row-gutter: 1.5em, // 行间距
+    row-gutter: 1em, // 行间距
     
     long_field("项目名称：", project_name),
     short_field("项目负责人：", name),
