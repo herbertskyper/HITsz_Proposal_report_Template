@@ -47,23 +47,23 @@
 }
 
 #let cover(
-  project_name: "",
-  name: "",
-  student_id: "",
-  tel_student: "",
-  email_student: "",
-  collage_student: "",
+  project_name: " ",
+  name: " ",
+  student_id: " ",
+  tel_student: " ",
+  email_student: " ",
+  collage_student: " ",
 
-  mentor: "",
-  profession: "",
-  tel_mentor: "",
-  email_mentor: "",
-  collage_mentor: "",
+  mentor: " ",
+  profession: " ",
+  tel_mentor: " ",
+  email_mentor: " ",
+  collage_mentor: " ",
 
   date:auto //若自定义日期 写作array形式 e.g. (2024, 2, 12)
   ) = {
 
-  v(字号.小四 * 2)
+  v(字号.小四 * 1)
 
   strong(text("附件：", font: 字体.黑体, size: 字号.四号, ))
   
@@ -74,16 +74,12 @@
   par(strong(text("哈尔滨工业大学（深圳）\n", font: 字体.黑体, size: 字号.一号)))
   par(strong(text("大一年度项目立项报告", font: 字体.黑体, size: 字号.一号)))
 
-  // for i in range(1, 4) {
-  //   par(v(字号.小二 * 1))
-  // }
-  v(字号.小二 * 4)
-  v(字号.小二 * 1)
+  v(字号.小二 * 6)
 
   // set text(font: 字体.宋体)
   gridx(
     columns: (1fr, 1fr),
-    row-gutter: 1em, // 行间距
+    row-gutter: 0.8em, // 行间距
     
     long_field("项目名称：", project_name),
     short_field("项目负责人：", name),
@@ -92,7 +88,7 @@
     short_field("电子邮箱：", email_student),
     long_field("学院：", collage_student),
 
-    v(1em), v(1em),
+    v(0.5em), v(0.5em),
 
     short_field("指导教师：", mentor),
     short_field("职称：", profession),
@@ -108,6 +104,6 @@
   } else {
     date = datetime(year: date.at(0), month: date.at(1), day: date.at(2))
   }
-  place(bottom + center, date)
-
+  v(2cm)
+  place(center, date)
   }
