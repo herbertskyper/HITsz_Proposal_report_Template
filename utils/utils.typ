@@ -66,3 +66,7 @@
  }
 }
 
+//用于生成block级别的方框
+#let block_content(body) = {
+  block(stroke: 1pt + black, inset: 20pt)[#body]
+}
