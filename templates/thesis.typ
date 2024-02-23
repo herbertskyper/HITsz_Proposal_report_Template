@@ -22,7 +22,7 @@
 
   set page(
     paper: "a4",
-    margin: (top: 3.8cm, left: 3cm, right: 3cm, bottom: 3cm)
+    margin: (top: 3.5cm, left: 3cm, right: 3cm, bottom: 3cm)
   )
 
 
@@ -54,7 +54,7 @@
         ]
       }
 
-      v(0.5em)
+      v(0.2em)
 
     }
 

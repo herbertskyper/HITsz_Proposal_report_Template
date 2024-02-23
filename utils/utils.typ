@@ -40,6 +40,11 @@
   heading(numbering: none, ..args)
 }
 
+//用于生成block级别的方框
+#let block_content(body) = {
+  block(stroke: 1pt + black, inset: 10pt)[#body]
+}
+
 //用于产生组图的子图
 #let subfigure(body, caption: "", numbering: "(a)") = {
  let figurecount = counter(figure)
@@ -64,9 +69,4 @@
  if not caption == none {
  align(center)[#number #caption]
  }
-}
-
-//用于生成block级别的方框
-#let block_content(body) = {
-  block(stroke: 1pt + black, inset: 20pt)[#body]
 }
