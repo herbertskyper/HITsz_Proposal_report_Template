@@ -25,31 +25,14 @@
     margin: (top: 3.8cm, left: 3cm, right: 3cm, bottom: 3cm)
   )
 
-  set page(
-    header: {
-      show_if_after_cover_end_before[
-        #set align(center)
-        #set text(font: 字体.宋体, size: 字号.小五, baseline: 6pt)
-        #set par(leading: 0em)
-        #text[
-          哈尔滨工业大学本科毕业论文（设计）
-        ]
-        #line(length: 100%)
-        #v(2pt, weak: true)
-        #line(length: 100%, stroke: 0.1mm)
-      ]
-
-    }
-  )
 
   set page(
     footer: {
       set align(center)
       locate(loc => {
-        show_if_after_cover_end_after[
-          #text()[
-            \- #counter(page).at(loc).first() \-
-          ]
+          text()[
+            #counter(page).at(loc).first()
+
         ]
       })
     }
@@ -88,10 +71,11 @@
     } else if it.level == 4 {
       format_heading(it: it, font: 字体.黑体, size: 字号.四号)
     } else if it.level == 5 {
-      format_heading(it: it, font: 字体.黑体, size: 字号.五号)
+      format_heading(it: it, font: 字体.宋体, size: 字号.小四)
     }
 
   }
+
 
   set heading(numbering: heading_numbering)
 
