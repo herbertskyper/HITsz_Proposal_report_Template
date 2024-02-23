@@ -1,6 +1,6 @@
-#import "../../../theme/type.typ": *
-#import "../../../utils/numbering.typ": *
-#import "../../../utils/counters.typ": cover_end_before_counter, cover_end_after_counter
+#import "../theme/type.typ": *
+#import "../utils/numbering.typ": *
+#import "../utils/counters.typ": cover_end_before_counter, cover_end_after_counter
 
 
 #let conf(content) = {
