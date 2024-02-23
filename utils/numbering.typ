@@ -4,7 +4,7 @@
 
   if nums_vec.len() > 0 {
     let without_first = nums_vec.slice(1, nums_vec.len())
-    let without_second = nums_vec.slice(2, nums_vec.len())
+    // let without_second = nums_vec.slice(2, nums_vec.len())
 
     if without_first.len() == 4 [
       #numbering( "1)" , ..nums_vec.slice(4,5) )
