@@ -1,6 +1,6 @@
 #import "templates/thesis.typ":*
 #import "pages/cover.typ": cover
-// #import "pages/outline.typ": outline-page
+#import "pages/outline.typ": outline-page
 #import "utils/utils.typ":*
 
 
