@@ -110,7 +110,7 @@
   #set align(right)
 #[
   #set text(font: "宋体", size: 字号.四号)
-  批准经费： #h(5em)元 #h(5em)组长签名： #h(9em)//请修改此处
+  批准经费： #h(5em)元 #h(5em)组长签名： #h(7em)//请修改此处
 ]
   #v(1.5em)
 #[

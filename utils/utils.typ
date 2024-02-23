@@ -25,7 +25,7 @@
 //用于生成方框，并可以写入内容
 #let rect_content(content: "",height: 23.5cm)=[
   #rect(
-    width: 16.5cm,
+    width: 100%,
     height: height,
     [
       #v(0.3cm)
