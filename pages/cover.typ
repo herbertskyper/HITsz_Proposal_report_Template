@@ -63,7 +63,7 @@
   date:auto //若自定义日期 写作array形式 e.g. (2024, 2, 12)
   ) = {
 
-  v(字号.小四 * 2)
+  v(字号.小四 * 1)
 
   strong(text("附件：", font: 字体.黑体, size: 字号.四号, ))
   
@@ -79,7 +79,7 @@
   // set text(font: 字体.宋体)
   gridx(
     columns: (1fr, 1fr),
-    row-gutter: 1em, // 行间距
+    row-gutter: 0.8em, // 行间距
     
     long_field("项目名称：", project_name),
     short_field("项目负责人：", name),
@@ -104,6 +104,6 @@
   } else {
     date = datetime(year: date.at(0), month: date.at(1), day: date.at(2))
   }
-  v(1cm)
+  v(2cm)
   place(center, date)
   }

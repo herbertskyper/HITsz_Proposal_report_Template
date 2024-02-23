@@ -28,7 +28,7 @@
 
 #report_title(title_content:"一、项目团队成员",title_tips:"包括项目负责人、按顺序")
 #table(
-  columns: (1fr, 1fr, 1fr,1fr, 1fr),
+  columns: (1fr, 1fr, 1fr, 1fr, 1fr),
   rows: (auto,2cm,2cm,2cm),
   inset: 10pt,
   align: horizon + center,
@@ -42,15 +42,11 @@
 
 #report_title(title_content:"二、立项报告",title_tips:"字数在2000字以上，篇幅不够可附页")
 
+#[#show: block_content
 
-#rect_content(content: [
 
 == a
 === aa
-]
-,height: 10.746cm)
-
-#rect_content(content:[
   === aaa
   == 项目背景
   === abc
@@ -70,30 +66,15 @@ xsaxaAxavccssxaaxaxsaxaxxxxxxa
 === abca
 大叔大婶sebdaxacacanjnngjgj,jfyfjxascscccascscascccscsx草阿迪达斯达大厦啊实打实大师大师
 // #let 
-])
+#lorem(500)
 
-#rect_content(content:[
+342444324324233422343242
 
-])
-#rect_content(content:[
-  
-])
-#rect_content(content:[
-  
-])
-#rect_content(content:[
-  
-])
-#rect_content(content:[
-  
-])
-#rect_content(content:[
-  
-])
-#rect_content(content:[
-  
-])
+#lorem(120)
 
+
+
+]
 #pagebreak()
 #report_title(title_content:"三、指导教师意见")
 
