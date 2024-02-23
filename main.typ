@@ -1,6 +1,6 @@
 #import "templates/thesis.typ":*
 #import "pages/cover.typ": cover
-#import "pages/outline.typ": outline-page
+// #import "pages/outline.typ": outline-page
 #import "utils/utils.typ":*
 
 
@@ -10,7 +10,7 @@
 name: "Purple_sheep",)
 #pagebreak()
 
-// #outline()
+
 // #outline-page()
 
 
@@ -18,7 +18,11 @@ name: "Purple_sheep",)
 
 
 
-= 嵌入神经网络的卡尔曼滤波器设计
+// = 嵌入神经网络的卡尔曼滤波器设计
+
+#outline(title: "嵌入神经网络的卡尔曼滤波器设计")
+#pagebreak()
+
 == abc
 == abcd
 === abcd
@@ -26,7 +30,7 @@ name: "Purple_sheep",)
 // + abcd
 // + abcd
 xsaxaAxavccssxaa
-// #title_tips(content:"Tesis title",spacing_h:3.4cm)
+#title_tips(content:"Tesis title",spacing_h:3.4cm)
 
 ===== abcd
 ===== abca
