@@ -16,6 +16,7 @@ clone本项目后在Vscode中安装Typst LSP和Typst Prview后直接预览main.t
 
 ## 4.参考项目
 https://github.com/chosertech/HIT-Thesis-Typst
+
 https://github.com/nju-lug/nju-thesis-typst
 
 ## 5.预览效果
