@@ -11,7 +11,7 @@ clone本项目后在Vscode中安装Typst LSP和Typst Prview后直接预览main.t
 
 
 ## 3.待解决问题
-1.中文无法加粗的问题（待官方支持）
+1.中文无法加粗的问题（现官方已支持）
 
 2.封装以简化main.typ
 
